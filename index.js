@@ -110,6 +110,6 @@ userForm.addEventListener("submit", saveUserForm);
 
 document.getElementById( 'exit' ).addEventListener( 'click', () =>
 {
-    window.location.href = '/landing page/index.html';
+    window.location.href = '../index.html';
 })
 displayEntries();
