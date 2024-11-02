@@ -108,4 +108,8 @@ const saveUserForm = (event) => {
 let userForm = document.getElementById('user-form');
 userForm.addEventListener("submit", saveUserForm);
 
+document.getElementById( 'exit' ).addEventListener( 'click', () =>
+{
+    window.location.href = '/landing page/index.html';
+})
 displayEntries();
